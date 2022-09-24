@@ -22,3 +22,4 @@ events();
 $(document).on("click", "ul li", function () {
   $(this).addClass("btn").siblings().removeClass("btn");
 });
+
